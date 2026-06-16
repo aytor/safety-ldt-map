@@ -5,7 +5,7 @@ This constitutes an extension for safety analysis of dynamical systems with unce
 
 In the paper, we leverage the results from Large Deviations theory to reach an accurate and computationally feasible formulation for the probability density of initial states, which describe how probable is departing from a point and hitting an unsafe compact set. Maximizing this density allows us to determine interesting quantities, such as the most probable initial condition, hitting time and trajectory hitting the unsafe set.
 
-The approach is demonstrated by this code using a practical example: a short-term conjunction of two space objects in quasi-circular orbit.
+The approach is demonstrated by this code using a practical example: a short-term conjunction of two space objects.
 
 # Dependencies
 The method relies on solving a variational problem, which we formulate in MATLAB and solve using CasADi.
